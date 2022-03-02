@@ -1,51 +1,17 @@
-<!--# LyveCloud solutions samples
-
-<img src="images/LyveCloud-logo.png?raw=true" width="700">
-
-[LyveCloud](https://www.seagate.com/gb/en/services/cloud/storage/) by [Seagate](https://www.seagate.com) is an S3-compatible storage-as-a-service platform designed as a simple, trusted, and efficient service allowing enterprises to unlock the value of their massive unstructured datasets and enabling them to store more for longer.
-
-This repository holds integrations and solutions written by LyveCloud users who contributed them for the benefit of the LyveCloud users` community. We are happy to see you here and encourage you to take part in this community. 
-
-Notice the solutions are not part of the LyveCloud product.  
-
-## Getting Started
-- Browse our repository to find usefull tools for your needs (as listed below) or to get inspiration for building your integration.
-- Have a question? Let's have a [discussion](https://github.com/barviv-seagate/git_samples/discussions) (don't be shy). 
-- Want to crate and contribute your own solution? Read our [Contribution Guide](CONTRIBUTING.md).
-
-The repository is licensed under the [Apache 2.0 License](LICENSE).
-
-## Your task
-Create CLI tool for S3 operations:
-1. Open a [Free account in AWS](https://aws.amazon.com/free).
-1. Create a help menu (--help flag).
-1. List objects by bucket name (optional: path).
-1. Put object by bucket name & object path.
-1. Delete object by bucket name & object path.
-1. Create short documentation to explain your code.
-1. Create a pull request for your changes.
-1. **Note:** You can write in any code language you choose.
--->
 # Integration Subject
 
-[Video Link](your-link)
-
 ## Introduction
-<!--Write an introduction on the subject of integration you have chosen-->
 *CLI app*
 This program is an imitation of "AWS CLI" with limited capabilities.
 This CLI allows basic commands in s3 - AWS storage.
 
 ## Requirements
-<!--Details of your work environment: operating system, versions, installations to be performed for the integration, etc.-->
 - Operating system: WINDOWS\IOS\LINUX
 - Installing PyCharm 2020 or above
 - Installing Boto3 (AWS package)
 - AWS user
 - Installing CLI
 - AWS configure (set up installation)
-
-**Tutorial**
 
 
 ## Include and Not-Included
@@ -72,9 +38,6 @@ For example:
 result:
 ![image](https://user-images.githubusercontent.com/88038376/154973213-7eac8c02-f008-4d95-b99c-0d6d61cc135b.png)
 
-#### Not-Included
-<!--* Please describe what features are not-included. -->
-
 ##### Key areas to address during the challenge:
 * Security - there are no memory leak therefore external code cannot be entered easily. using boto 3 should be secure link.
 <!--* Performance - -->
@@ -83,14 +46,6 @@ result:
 <!--* Recovery -->
 
 ## Running Steps
-<!--**Step 1:** Get your Lyve Cloud bucket credentials.   
-Here's what you'll need:
-* Access Key
-* Secret key
-* Endpoint URL
-
-**Step 2:** 
-Complite the following steps in detail and explained, including execution commands. It is recommended to add pictures that simulate the steps if necessary.-->
 To use this CLI, follow these steps:
 1. Create an [AWSaccount ](https://aws.amazon.com/s3/?c=s&sec=srv).
 
@@ -114,38 +69,19 @@ In this example, "C:\Users\amirk\pythonProject1" is the file address.
 ![image](https://user-images.githubusercontent.com/88038376/154863031-1df9a1ed-854f-4dde-9230-9ab181123277.png)
 In this example, main is the name of the file and ".py" refers to the file type.
 
-## Results 
-<!--show the results in pictures or in a short paragraph.-->
-
-## Tested by:
-<!--* August 22, 2021: Bari Arviv (bari.arviv@seagate.com) on Ubuntu 20.4
-* month day, year: full_name (email) on your_environment-->
-
-## **Note:** All files should be uploaded (all the files you used for the integration) under one folder, including the README.md file. 
 ### Project Structure
-
-<!--This section will describe the representation of each of the folders or files in the structure.-->
 ```
 .
 ├── README.md
-├── code - cli_home_task
+├── code - cli
 │   └── main.py
 │	└── tests.py
-├── documentation
-│   └── introduction.pptx
-└── images
-    └── <image-name>
+└── documentation
+    └── introduction.pptx
 ```
 
 ### `/code`
-This folder contains:<!--, all the code files.-->
 1. main.py - program
 2. tests.py - tests sample
 
-### `/documentation`
-This folder contains:<!--, the demo video and presentation file.-->
-1. introduction
-
-### `/images`
-<!--This folder contains, all the images.-->
 
