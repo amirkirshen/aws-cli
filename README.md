@@ -21,20 +21,24 @@ This CLI allows the follow commands:
 1. See all files that are stored in the s3 by bucket's name : 'bucket name' get list
 For example:
 ![image](https://user-images.githubusercontent.com/88038376/154974991-3d1b0e0f-8b3c-4f38-bc94-e7a3274c7c13.png)
+
 Here you can see one file named 'check.txt' in bucked named 'seagate-test-amir-b'.
 
 2. Put a new file by a bucket name: 'bucket name' put object
 For example:
 ![image](https://user-images.githubusercontent.com/88038376/154975553-32e64bdf-7086-4142-8cef-708e0d3e8b77.png)
+
 The file is located at 'C:\Users\amirk\s3tutorial' and the file named 'test.txt'.
 
 3. Delete a file by a bucket name: 'bucket name' delete object
 For example:
 ![image](https://user-images.githubusercontent.com/88038376/154976002-aa90ca77-0102-4117-93db-7638af843991.png)
+
 'test.txt' deleted from 'seagate-test-amir-b' bucket.
 
 4. Help menu: --help
 ![image](https://user-images.githubusercontent.com/88038376/154973085-e510e7fc-706d-4df0-8c1b-b981d9fdf14f.png)
+
 result:
 ![image](https://user-images.githubusercontent.com/88038376/154973213-7eac8c02-f008-4d95-b99c-0d6d61cc135b.png)
 
@@ -63,10 +67,12 @@ To use this CLI, follow these steps:
 
 7. Set the folder address by typing the following command - cd "file address"
 ![image](https://user-images.githubusercontent.com/88038376/154862865-3c7f67cf-7768-4442-b97d-b39634f7c89c.png)
+
 In this example, "C:\Users\amirk\pythonProject1" is the file address.
 
 8. Open the script by typing the following command - python "file name".py
 ![image](https://user-images.githubusercontent.com/88038376/154863031-1df9a1ed-854f-4dde-9230-9ab181123277.png)
+
 In this example, main is the name of the file and ".py" refers to the file type.
 
 ### Project Structure
