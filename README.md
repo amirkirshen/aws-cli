@@ -33,14 +33,17 @@ The file is located at 'C:\Users\amirk\s3tutorial' and the file named 'test.txt'
 
 3. Delete a file by a bucket name: 'bucket name' delete object
 For example:
-![image](https://user-images.githubusercontent.com/88038376/154976002-aa90ca77-0102-4117-93db-7638af843991.png)
+
+![image](https://user-images.githubusercontent.com/88038376/156355752-368f916e-d07b-414e-822a-4b466e8985f0.png)
 
 'test.txt' deleted from 'example-cli-amir' bucket.
 
 4. Help menu: --help
+
 ![image](https://user-images.githubusercontent.com/88038376/154973085-e510e7fc-706d-4df0-8c1b-b981d9fdf14f.png)
 
 result:
+
 ![image](https://user-images.githubusercontent.com/88038376/154973213-7eac8c02-f008-4d95-b99c-0d6d61cc135b.png)
 
 ##### Key areas to address during the challenge:
