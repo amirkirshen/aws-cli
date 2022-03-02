@@ -26,7 +26,7 @@ Here you can see one file named 'check.txt' in bucked named 'seagate-test-amir-b
 
 2. Put a new file by a bucket name: 'bucket name' put object
 For example:
-![image](https://user-images.githubusercontent.com/88038376/154975553-32e64bdf-7086-4142-8cef-708e0d3e8b77.png)
+![image](https://user-images.githubusercontent.com/88038376/156355289-0a06767a-d4c6-43a3-80dc-0f76a037818c.png)
 
 The file is located at 'C:\Users\amirk\s3tutorial' and the file named 'test.txt'.
 
