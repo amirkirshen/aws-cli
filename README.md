@@ -20,9 +20,10 @@ This CLI allows the follow commands:
 
 1. See all files that are stored in the s3 by bucket's name : 'bucket name' get list
 For example:
-![image](https://user-images.githubusercontent.com/88038376/154974991-3d1b0e0f-8b3c-4f38-bc94-e7a3274c7c13.png)
 
-Here you can see one file named 'check.txt' in bucked named 'seagate-test-amir-b'.
+![image](https://user-images.githubusercontent.com/88038376/156355443-641fbb07-07cf-4ef2-ac90-a911f021581b.png)
+
+Here you can see one file named 'check.txt' in bucked named 'example-cli-amir'.
 
 2. Put a new file by a bucket name: 'bucket name' put object
 For example:
@@ -34,7 +35,7 @@ The file is located at 'C:\Users\amirk\s3tutorial' and the file named 'test.txt'
 For example:
 ![image](https://user-images.githubusercontent.com/88038376/154976002-aa90ca77-0102-4117-93db-7638af843991.png)
 
-'test.txt' deleted from 'seagate-test-amir-b' bucket.
+'test.txt' deleted from 'example-cli-amir' bucket.
 
 4. Help menu: --help
 ![image](https://user-images.githubusercontent.com/88038376/154973085-e510e7fc-706d-4df0-8c1b-b981d9fdf14f.png)
